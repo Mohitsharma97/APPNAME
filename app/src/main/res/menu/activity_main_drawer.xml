@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/baseline_home_black_18dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/baseline_account_circle_black_18dp"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/baseline_directions_car_black_18dp"
+            android:title="My Vehicles" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/baseline_place_black_18dp"
+            android:title="MY Dealers" />
+        <item
+            android:id="@+id/nav_dealer"
+            android:icon="@drawable/baseline_settings_black_18dp"
+            android:title="App Settings" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/baseline_exit_to_app_black_18dp"
+            android:title="Log Out" />
+        <item
+            android:id="@+id/nav_aboutapp"
+            android:title="About this App"/>
+    </group>
+
+
+
+</menu>
